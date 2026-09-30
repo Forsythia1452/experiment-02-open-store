@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>晴选商店 · Open Store</title><link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/"><span>晴</span> 晴选商店</a><nav><a href="#products">全部商品</a><a href="/admin">管理台</a><button id="cartButton" class="cart-button">购物车 <b id="cartCount">0</b></button></nav></header>
+  <main>
+    <section class="hero"><div><p class="eyebrow">OPEN SOURCE COMMERCE LAB</p><h1>选得轻松，<br>买得明白。</h1><p>10 件虚构商品，真实库存校验、购物车与订单持久化。</p><a class="primary" href="#products">开始选购</a></div><aside><strong>实验 02</strong><p>从商品、变体和库存，到购物车和幂等订单。</p><div class="stat"><span>10</span> 商品 · <span>3</span> 边界库存</div></aside></section>
+    <section class="catalog" id="products">
+      <div class="section-head"><div><p class="eyebrow">CATALOG</p><h2>本周精选</h2></div><form id="searchForm"><input id="search" placeholder="搜索商品或变体" aria-label="搜索商品"><select id="category" aria-label="商品分类"><option value="">全部分类</option><option>数码</option><option>生活</option><option>家居</option></select><button>搜索</button></form></div>
+      <div id="notice" class="notice" hidden></div><div id="productGrid" class="product-grid" aria-live="polite"></div>
+    </section>
+  </main>
+  <aside id="cartDrawer" class="drawer" aria-hidden="true"><div class="drawer-head"><h2>购物车</h2><button id="closeCart" aria-label="关闭购物车">×</button></div><div id="cartItems"></div><div class="cart-total"><span>合计</span><strong id="cartTotal">¥0.00</strong></div><button id="checkoutButton" class="primary wide">填写结算信息</button></aside><div id="backdrop" class="backdrop" hidden></div>
+  <dialog id="checkoutDialog"><form id="checkoutForm"><button type="button" class="dialog-close" id="closeCheckout">×</button><p class="eyebrow">CHECKOUT</p><h2>创建测试订单</h2><label>姓名<input name="customerName" value="侯宇晴" required minlength="2"></label><label>手机号<input name="phone" value="13800138000" required pattern="1[0-9]{10}"></label><label>地址<textarea name="address" required minlength="8">江苏省南京市软件大道 2304 号</textarea></label><p class="hint">本实验使用本地手工测试流程，不接入真实支付。</p><button class="primary wide" id="placeOrder">提交订单</button></form></dialog>
+  <dialog id="resultDialog"><div class="result"><div class="success">✓</div><h2>订单创建成功</h2><p id="orderMessage"></p><button class="primary" id="closeResult">继续购物</button></div></dialog>
+  <footer>© 2026 晴选商店 · 侯宇晴 · 软件2304 · <a href="/api/health">API 健康检查</a></footer>
+  <script type="module" src="/assets/app.js"></script>
+</body></html>

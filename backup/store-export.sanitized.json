@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-09-30T01:12:45.373Z",
+  "products": [
+    {
+      "id": "p01",
+      "name": "雾蓝机械键盘",
+      "category": "数码",
+      "price": 39900,
+      "stock": 12,
+      "variant": "青轴 / 热插拔",
+      "emoji": "⌨️",
+      "active": 1
+    },
+    {
+      "id": "p02",
+      "name": "轻量无线鼠标",
+      "category": "数码",
+      "price": 18900,
+      "stock": 1,
+      "variant": "黑色 / 55g",
+      "emoji": "🖱️",
+      "active": 1
+    },
+    {
+      "id": "p03",
+      "name": "桌面氛围灯",
+      "category": "家居",
+      "price": 12900,
+      "stock": 0,
+      "variant": "暖白 / USB-C",
+      "emoji": "💡",
+      "active": 1
+    },
+    {
+      "id": "p04",
+      "name": "旅行保温杯",
+      "category": "生活",
+      "price": 9900,
+      "stock": 1,
+      "variant": "500ml / 墨绿",
+      "emoji": "🥤",
+      "active": 1
+    },
+    {
+      "id": "p05",
+      "name": "城市通勤双肩包",
+      "category": "生活",
+      "price": 26900,
+      "stock": 8,
+      "variant": "18L / 防泼水",
+      "emoji": "🎒",
+      "active": 1
+    },
+    {
+      "id": "p06",
+      "name": "降噪头戴耳机",
+      "category": "数码",
+      "price": 59900,
+      "stock": 5,
+      "variant": "40h 续航",
+      "emoji": "🎧",
+      "active": 1
+    },
+    {
+      "id": "p07",
+      "name": "人体工学坐垫",
+      "category": "家居",
+      "price": 15900,
+      "stock": 14,
+      "variant": "记忆棉",
+      "emoji": "🪑",
+      "active": 1
+    },
+    {
+      "id": "p08",
+      "name": "便携手冲咖啡套装",
+      "category": "生活",
+      "price": 21900,
+      "stock": 3,
+      "variant": "滤杯 / 分享壶",
+      "emoji": "☕",
+      "active": 1
+    },
+    {
+      "id": "p09",
+      "name": "极简桌面收纳架",
+      "category": "家居",
+      "price": 13900,
+      "stock": 20,
+      "variant": "双层 / 胡桃木色",
+      "emoji": "🗄️",
+      "active": 1
+    },
+    {
+      "id": "p10",
+      "name": "超长标题测试商品：适合宿舍与工作室的多功能可折叠阅读支架",
+      "category": "数码",
+      "price": 7900,
+      "stock": 6,
+      "variant": "铝合金 / 多角度",
+      "emoji": "📐",
+      "active": 1
+    }
+  ],
+  "settings": [
+    {
+      "key": "low_stock_threshold",
+      "value": "3"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-MUNESLZ5-E397",
+      "total": 18900,
+      "status": "created",
+      "created_at": "2026-09-30 01:10:51"
+    }
+  ]
+}
